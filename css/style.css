@@ -98,10 +98,10 @@
      
      p{
           padding: 0;
-          margin: 1px;
           text-align: left;
           font-size: 1.25em;
           color: #615b5b;
+          word-spacing: normal;
      }
 
      i{

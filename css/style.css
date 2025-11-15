@@ -139,9 +139,20 @@
           justify-content: space-around;
      }
      
-     form,input{
-          padding: 5px;
+     input{
+          border-radius: 5px;
+          outline: none;
+          border: 1px grey solid;
+          padding: 10px;
+          padding-right: 50px;
+          margin: 5px;
+          
      }
+
+          input:focus {
+               border: 1px solid #eea302;
+               outline: none;
+          }
      
      button{
           width: 100px;
@@ -151,8 +162,10 @@
           background-color: #eea302;
      }
      
-     .message_input{
+     textarea{
           padding-bottom: 200px;
+          border-radius: 5px;
+          border: 1px ;
      }
      
      /* section projet */

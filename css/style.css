@@ -1,8 +1,11 @@
+     html{
+          margin-left: 100px;
+          margin-right: 100px;
+     }
 
      body{
           font-family: sans-serif;
-          margin: 20px;
-          background: #d7d6d6;
+          background: #d7cfcf;
      }
 
      a{
@@ -47,18 +50,18 @@
      
      div>h1{
           font-size: 50px;
-          color: #716f6f;
+          color: #978d8d;
      }
      
      img{
-          width: 300px;
+          width: 25vw;
           border-radius: 50%;
      }
      
      .link_color{
           display: flex;
-          justify-content: space-around;
-          margin-top: 10px;
+          justify-content: space-between;
+          margin: 10px;
      }
      
      .color_red{
@@ -96,7 +99,20 @@
      p{
           padding: 0;
           margin: 1px;
+          text-align: left;
+          font-size: 1.25em;
+          color: #615b5b;
      }
+
+     i{
+          color: black;
+     }
+
+     .div-paragraph{
+          width: 50%;
+     }
+
+     /* footer section */
      
      footer{
           border-top: 1px solid;
@@ -106,8 +122,26 @@
      .footer{
           display: flex;
           justify-content: space-around;
+          align-items: center;
+     }
+
+     .icon-footer{
+          display: flex;
+          justify-content: space-evenly;
+     }
+
+     .icon-footer>a{
+          width: 30px;
+          display: flex;
+          margin: 5px;
+     }
+
+     .icon-direction{
+          display: flex;
+          flex-direction: column;
      }
      
+     /* color hover */
      
      .color_bleu:hover{
           background-color: red;
